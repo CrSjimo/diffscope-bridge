@@ -1,0 +1,9 @@
+[submodule "lib/ARA_SDK"]
+	path = lib/ARA_SDK
+	url = https://github.com/Celemony/ARA_SDK.git
+[submodule "lib/JUCE"]
+	path = lib/JUCE
+	url = https://github.com/juce-framework/JUCE.git
+[submodule "lib/choruskit-audio-bridge"]
+	path = lib/choruskit-audio-bridge
+	url = https://github.com/CrSjimo/choruskit-audio-bridge.git

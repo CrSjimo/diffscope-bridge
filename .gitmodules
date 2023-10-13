@@ -7,3 +7,6 @@
 [submodule "lib/choruskit-audio-bridge"]
 	path = lib/choruskit-audio-bridge
 	url = https://github.com/CrSjimo/choruskit-audio-bridge.git
+[submodule "lib/talcs-remote"]
+	path = lib/talcs-remote
+	url = git@github.com:CrSjimo/talcs-remote.git

@@ -14,7 +14,7 @@ ck_add_audio_plugin(DiffScopeBridge
 
 ck_target_plugin_config(DiffScopeBridge
     PLUGIN_EDITOR_NAME "DiffScope Editor"
-    PLUGIN_CONFIG_ENV DIFFSCOPE_BRIDGE_CONFIG
+    PLUGIN_CONFIG_PATH ChorusKit/DiffScope/vstconfig.json
     COLOR_FOREGROUND 154c39
     COLOR_FOREGROUND_ON 0f694b
     COLOR_FOREGROUND_LABEL ffffff

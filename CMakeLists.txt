@@ -4,12 +4,19 @@ project(DiffScopeBridge VERSION 0.0.1 LANGUAGES CXX)
 
 add_subdirectory(lib)
 
+set(_formats VST3 LV2 Standalone)
+
+if (APPLE)
+    list(APPEND _formats AU)
+endif()
+
 ck_add_audio_plugin(DiffScopeBridge
     VERSION ${CMAKE_PROJECT_VERSION}
     ENABLE_ARA TRUE
     PLUGIN_NAME "DiffScope Bridge"
     VENDOR OpenVPI
-    FORMATS VST3 Standalone
+    FORMATS ${_formats}
+    LV2URI https://github.com/CrSjimo/diffscope-bridge
 )
 
 ck_target_plugin_config(DiffScopeBridge
